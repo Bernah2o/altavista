@@ -1,0 +1,48 @@
+# Entornos virtuales
+env/
+venv/
+ENV/
+.venv/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de logs y bases de datos temporales
+*.log
+*.sqlite3
+
+# Archivos de entorno
+.env
+.env.*
+
+# Archivos de migraciones de Django (opcional si no los versionas)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Archivos generados (reportes, PDFs, etc.)
+*.pdf
+media/
+staticfiles/
+static/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de pytest y cobertura
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.cache
